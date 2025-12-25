@@ -1,0 +1,51 @@
+{
+  "generated_at": "2025-12-25T12:01:17Z",
+  "services": [
+    {
+      "name": "update-timetable",
+      "MainPID": "1563356",
+      "Result": "success",
+      "ExecMainPID": "1563356",
+      "Id": "update-timetable.service",
+      "LoadState": "loaded",
+      "ActiveState": "active",
+      "SubState": "running",
+      "UnitFileState": "enabled",
+      "is_active": "active",
+      "is_enabled": "enabled"
+    },
+    {
+      "name": "update_timetable",
+      "MainPID": "257368",
+      "Result": "success",
+      "ExecMainPID": "257368",
+      "Id": "update_timetable.service",
+      "LoadState": "loaded",
+      "ActiveState": "active",
+      "SubState": "running",
+      "UnitFileState": "enabled",
+      "is_active": "active",
+      "is_enabled": "unknown"
+    },
+    {
+      "name": "update-timetable-tunnel",
+      "MainPID": "1570297",
+      "Result": "success",
+      "ExecMainPID": "1570297",
+      "Id": "update-timetable-tunnel.service",
+      "LoadState": "loaded",
+      "ActiveState": "active",
+      "SubState": "running",
+      "UnitFileState": "enabled",
+      "is_active": "active",
+      "is_enabled": "unknown"
+    }
+  ],
+  "website_check": {
+    "url": "https://mito1-website.loca.lt",
+    "status": 200,
+    "reachable": true,
+    "restarted_service": null,
+    "error": null
+  }
+}
