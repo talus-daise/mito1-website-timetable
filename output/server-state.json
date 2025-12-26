@@ -1,11 +1,11 @@
 {
-  "generated_at": "2025-12-25T12:04:19Z",
+  "generated_at": "2025-12-26T04:50:10Z",
   "services": [
     {
       "name": "update-timetable",
-      "MainPID": "1563356",
+      "MainPID": "1616451",
       "Result": "success",
-      "ExecMainPID": "1563356",
+      "ExecMainPID": "1616451",
       "Id": "update-timetable.service",
       "LoadState": "loaded",
       "ActiveState": "active",
@@ -16,36 +16,34 @@
     },
     {
       "name": "update_timetable",
-      "MainPID": "257368",
-      "Result": "success",
+      "MainPID": "0",
+      "Result": "signal",
       "ExecMainPID": "257368",
       "Id": "update_timetable.service",
-      "LoadState": "loaded",
-      "ActiveState": "active",
-      "SubState": "running",
-      "UnitFileState": "enabled",
-      "is_active": "active",
+      "LoadState": "not-found",
+      "ActiveState": "failed",
+      "SubState": "failed",
+      "is_active": "unknown",
       "is_enabled": "unknown"
     },
     {
       "name": "update-timetable-tunnel",
-      "MainPID": "1570297",
+      "MainPID": "1606084",
       "Result": "success",
-      "ExecMainPID": "1570297",
+      "ExecMainPID": "1606084",
       "Id": "update-timetable-tunnel.service",
-      "LoadState": "loaded",
+      "LoadState": "not-found",
       "ActiveState": "active",
       "SubState": "running",
-      "UnitFileState": "enabled",
       "is_active": "active",
       "is_enabled": "unknown"
     }
   ],
   "website_check": {
     "url": "https://mito1-website.loca.lt",
-    "status": 200,
-    "reachable": true,
+    "status": null,
+    "reachable": false,
     "restarted_service": null,
-    "error": null
+    "error": "Failed to restart service: Command '['/bin/systemctl', 'restart', 'update-timetable-tunnel']' returned non-zero exit status 5."
   }
 }
