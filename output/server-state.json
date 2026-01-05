@@ -1,11 +1,11 @@
 {
-  "generated_at": "2025-12-26T04:50:10Z",
+  "generated_at": "2026-01-05T01:00:20Z",
   "services": [
     {
       "name": "update-timetable",
-      "MainPID": "1616451",
+      "MainPID": "1964833",
       "Result": "success",
-      "ExecMainPID": "1616451",
+      "ExecMainPID": "1964833",
       "Id": "update-timetable.service",
       "LoadState": "loaded",
       "ActiveState": "active",
@@ -41,7 +41,7 @@
   ],
   "website_check": {
     "url": "https://mito1-website.loca.lt",
-    "status": null,
+    "status": 503,
     "reachable": false,
     "restarted_service": null,
     "error": "Failed to restart service: Command '['/bin/systemctl', 'restart', 'update-timetable-tunnel']' returned non-zero exit status 5."
