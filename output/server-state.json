@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-10T09:25:09Z",
+  "generated_at": "2026-01-10T09:30:30Z",
   "services": [
     {
       "name": "update-timetable",
@@ -18,7 +18,7 @@
   "timetable_sync": {
     "image_count": 39,
     "last_image": "20260109-1.jpg",
-    "synced_at": "2026-01-10T09:25:09Z",
+    "synced_at": "2026-01-10T09:30:30Z",
     "images_synced": true
   }
 }
