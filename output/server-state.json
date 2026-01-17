@@ -1,8 +1,11 @@
 {
+  "generated_at": "2026-01-09T10:54:09Z",
   "services": [
     {
       "name": "update-timetable",
+      "MainPID": "2176399",
       "Result": "success",
+      "ExecMainPID": "2176399",
       "Id": "update-timetable.service",
       "LoadState": "loaded",
       "ActiveState": "active",
@@ -11,12 +14,5 @@
       "is_active": "active",
       "is_enabled": "enabled"
     }
-  ],
-  "timetable_sync": {
-    "image_count": 39,
-    "last_image": "20260109-1.jpg",
-    "images_synced": true,
-    "synced_at": "2026-01-17T11:35:16Z"
-  },
-  "generated_at": "2026-01-17T11:35:16Z"
+  ]
 }
