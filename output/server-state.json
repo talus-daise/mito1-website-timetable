@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "name": "update-timetable",
+      "Result": "success",
+      "Id": "update-timetable.service",
+      "LoadState": "loaded",
+      "ActiveState": "active",
+      "SubState": "running",
+      "UnitFileState": "enabled",
+      "is_active": "active",
+      "is_enabled": "enabled"
+    }
+  ],
+  "timetable_sync": {
+    "image_count": 76,
+    "last_image": "20260416-1.jpg",
+    "images_synced": true,
+    "synced_at": "2026-04-16T06:10:08Z"
+  },
+  "generated_at": "2026-04-16T06:10:08Z"
+}
